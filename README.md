@@ -39,7 +39,9 @@ ln -sf /var/www/homer/assets/config.yml /var/www/homer/edit/config.yml
 4. Make sure www-data (or your web server user) owns everything:
 > chown -R www-data:www-data /var/www/homer
 
-🌐 Serve with NGINX (example)
+---
+
+## 🌐 Serve with NGINX (example)
 Add this to your Homer server {} block:
 ```
 location /edit/ {
@@ -54,7 +56,9 @@ location /edit/ {
 ```
 > Adjust php8.2-fpm.sock to match your installed version.
 
-🛠 Usage
+---
+
+## 🛠 Usage
 Open `http://server.local/edit/`
 
 View and modify your full config.yml in the text area
@@ -62,22 +66,30 @@ Click Save
 You’ll see a green ✓ Saved! confirmation
 Refresh http://server.local/ to see your changes live
 
-🔗 Icon Reference
+---
+
+## 🔗 Icon Reference
 Use Font Awesome icons:
 ➡️ https://fontawesome.com/icons
 - icon: fas fa-network-wired
 - icon: fas fa-plug
 
-🧠 YAML Formatting Tips
+---
+
+## 🧠 YAML Formatting Tips
 - Use 2 spaces per indentation level (or consistent 4)
 - No tabs
 - Keep child items aligned under their parent keys
 
-🔄 Related Projects
+---
+
+## 🔄 Related Projects
 joshobrien77/homerconfig — full GUI editor with Flask backend
 This project — minimal, fast, drop-in version that integrates directly with existing Homer deployments
 
-🔐 Security
+---
+
+## 🔐 Security
 This tool is intentionally simple and unauthenticated.
 Use it only on trusted LANs. If needed, add authentication via:
 - HTTP basic auth
