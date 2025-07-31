@@ -55,7 +55,7 @@ location /edit/ {
     }
 }
 ```
-> Adjust php8.2-fpm.sock to match your installed version.
+> Adjust `php8.2-fpm.sock` to match your installed version.
 
 ---
 
