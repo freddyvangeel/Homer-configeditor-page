@@ -37,8 +37,9 @@ ln -sf /var/www/homer/assets/config.yml /var/www/homer/edit/config.yml
 ```
 
 4. Make sure www-data (or your web server user) owns everything:
-> chown -R www-data:www-data /var/www/homer
-
+```
+chown -R www-data:www-data /var/www/homer
+```
 ---
 
 ## 🌐 Serve with NGINX (example)
