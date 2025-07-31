@@ -17,7 +17,6 @@ No backend, no Python, no Flask — just a self-contained `index.html` and `save
 ---
 
 ## 📦 Folder structure
-/edit/
 ├── index.html # Main editor GUI
 ├── save.php # Handles saving to config.yml
 └── config.yml # Symlink to actual config file (optional)
